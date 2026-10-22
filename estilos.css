@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(1, 1, 121)
+}
+.contenedor{
+    background-color: rgb(79, 79, 255);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+
+}.botones{
+    position: relative;
+    display: inline-block;     
+}
+.boton{
+    padding: 5px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 92);
+    color: white;
+    border: none;
+}.boton:hover{
+    background-color: #464548;
+}.info{
+    position: absolute;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+    visibility: hidden;
+    transition: opacity 0.5s;
+    
+
+}
+.botones:hover .info{
+    opacity: 1;
+    visibility: visible;
+}
